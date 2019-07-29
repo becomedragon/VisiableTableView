@@ -13,6 +13,7 @@
 		89162D6622EEC40800F14FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89162D6522EEC40800F14FA6 /* Assets.xcassets */; };
 		89162D6922EEC40800F14FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89162D6722EEC40800F14FA6 /* LaunchScreen.storyboard */; };
 		89162D7422EEC40900F14FA6 /* VisiableTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89162D7322EEC40900F14FA6 /* VisiableTableViewUITests.swift */; };
+		89162D8222EEC4BE00F14FA6 /* VisiableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89162D8122EEC4BE00F14FA6 /* VisiableTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		89162D6F22EEC40900F14FA6 /* VisiableTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisiableTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89162D7322EEC40900F14FA6 /* VisiableTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisiableTableViewUITests.swift; sourceTree = "<group>"; };
 		89162D7522EEC40900F14FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89162D8122EEC4BE00F14FA6 /* VisiableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisiableTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		89162D5D22EEC40400F14FA6 /* VisiableTableView */ = {
 			isa = PBXGroup;
 			children = (
+				89162D7E22EEC43700F14FA6 /* VisiableTableView */,
 				89162D5E22EEC40400F14FA6 /* AppDelegate.swift */,
 				89162D6022EEC40400F14FA6 /* ViewController.swift */,
 				89162D6222EEC40500F14FA6 /* Main.storyboard */,
@@ -94,6 +97,14 @@
 				89162D7522EEC40900F14FA6 /* Info.plist */,
 			);
 			path = VisiableTableViewUITests;
+			sourceTree = "<group>";
+		};
+		89162D7E22EEC43700F14FA6 /* VisiableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				89162D8122EEC4BE00F14FA6 /* VisiableTableView.swift */,
+			);
+			path = VisiableTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89162D6122EEC40400F14FA6 /* ViewController.swift in Sources */,
+				89162D8222EEC4BE00F14FA6 /* VisiableTableView.swift in Sources */,
 				89162D5F22EEC40400F14FA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ELDE9L5Y5;
 				INFOPLIST_FILE = VisiableTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ELDE9L5Y5;
 				INFOPLIST_FILE = VisiableTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
