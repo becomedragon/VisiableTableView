@@ -23,7 +23,6 @@ class VisiableTableView: UITableView {
         delegate = deg
         dataSource = deg
         visiableDelegate = deg
-        startListen()
     }
     
     override init(frame: CGRect, style: UITableView.Style) {
@@ -33,7 +32,10 @@ class VisiableTableView: UITableView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+}
+
+//MARK: - interface
+extension VisiableTableView {
     func startListen() {
         addObserver(self, forKeyPath: #keyPath(contentOffset), options:[.new], context: nil)
     }
