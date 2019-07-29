@@ -11,4 +11,5 @@ a method that can detect tableview cell appear or disappear by custom ratio
 
   
 
-![Jietu20190729-145348 2](/Users/chengxiaolong/Developer/VisiableTableView/Jietu20190729-145348 2.jpg)
+![Jietu20190729-145348 2](https://github.com/becomedragon/VisiableTableView/blob/master/Jietu20190729-145348%202.jpg)
+
